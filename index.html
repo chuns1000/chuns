@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>랜덤 메시지</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>랜덤 메시지 선택기</h1>
+        <label for="selector">아빠, 엄마, 호연 중 하나를 선택하세요:</label>
+        <select id="selector">
+            <option value="none">선택하세요</option>
+            <option value="mom">엄마</option>
+            <option value="dad">아빠</option>
+            <option value="hoyeon">호연</option>
+        </select>
+        <button onclick="showInitialMessage()">확인</button>
+        <h2 id="message"></h2>
+        <h2 id="countdown"></h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
